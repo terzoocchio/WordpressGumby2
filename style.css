@@ -1,0 +1,132 @@
+/* 
+Theme Name: GumbyPress
+Theme URI: http://www.staplewebdesign.com/gumbypress
+Description: A Responsive Theme built on the Gumby Framework
+Author: Andy Staple
+Author URI: http://www.staplewebdesign.com
+Version: 0.9
+*/
+
+/* WordPress Core */
+.alignnone { margin: 5px 20px 20px 0; }
+.aligncenter, div.aligncenter { display:block; margin: 5px auto 5px auto; }
+.alignright { float:right; margin: 5px 0 20px 20px; }
+.alignleft { float:left; margin: 5px 20px 20px 0; }
+.aligncenter { display: block; margin: 5px auto 5px auto; }
+
+a img.alignright { float:right; margin: 5px 0 20px 20px; }
+a img.alignnone { margin: 5px 20px 20px 0; }
+a img.alignleft { float:left; margin: 5px 20px 20px 0; }
+a img.aligncenter { display: block; margin-left: auto; margin-right: auto }
+
+.wp-caption { background: #fff; border: 1px solid #f0f0f0; max-width: 96%; padding: 5px 3px 10px; text-align: center; }
+.wp-caption.alignnone { margin: 5px 20px 20px 0; }
+.wp-caption.alignleft { margin: 5px 20px 20px 0; }
+.wp-caption.alignright { margin: 5px 0 20px 20px;}
+.wp-caption img { border: 0 none; height: auto; margin:0; max-width: 98.5%; padding:0; width: auto; }
+
+.wp-caption p.wp-caption-text { font-size:11px; line-height:17px; margin:0; padding:0 4px 5px; }
+
+/* Gumby Overrides */
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.3;
+}
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+
+/* Sidebar / Widgets */
+#sidebar .widget { margin-bottom: 20px; }
+
+/* Unsorted */
+#navigation { margin-top: 20px; margin-bottom: 20px; }
+/** Demo Grid Styles **/
+
+	.demo_grid .column, .demo_grid .columns {
+		background: #5dbb73;
+		-webkit-box-shadow: inset 0 1px 0 #4faa65,
+			inset 0 -1px 0 #4faa65,
+			inset 1px 0 0 #4faa65,
+			inset -1px 0 0 #4faa65
+		;
+		-moz-box-shadow: inset 0 1px 0 #4faa65,
+			inset 0 -1px 0 #4faa65,
+			inset 1px 0 0 #4faa65,
+			inset -1px 0 0 #4faa65
+		;
+		box-shadow: inset 0 1px 0 #4faa65,
+			inset 0 -1px 0 #4faa65,
+			inset 1px 0 0 #4faa65,
+			inset -1px 0 0 #4faa65
+		;
+		-webkit-transition-duration: .3s;
+		-moz-transition-duration: .3s;
+		-o-transition-duration: .3s;
+		-ms-transition-duration: .3s;
+		transition-duration: .3s;
+	}
+	
+	.demo_grid .column:hover, .demo_grid .columns:hover {
+		background: #72dd8d;
+		cursor: pointer;
+		-webkit-transition-duration: .3s;
+		-moz-transition-duration: .3s;
+		-o-transition-duration: .3s;
+		-ms-transition-duration: .3s;
+		transition-duration: .3s;
+	}
+	
+	.demo_grid .row {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	
+	.demo_grid .row.sixteen .row:last-child {
+		margin-bottom: 0;
+	}
+	
+	.demo_grid.small .row {
+		margin-bottom: 15px;
+	}
+	
+	.demo_grid h1, .demo_grid h2 {
+		font: bold italic 220px georgia, times new roman, serif;
+		color: #fbfbfb;
+		letter-spacing: -.09em;
+		text-shadow: 0 10px 0 #000;
+		-webkit-transition-duration: 1s;
+	}
+	
+	.demo_grid h2  {
+		font-size: 21px;
+		text-shadow: 0 4px 0 #000;
+		font-weight: normal;
+		line-height: 1.6;
+	}
+	
+	.demo_grid p {
+		margin-bottom: 0;
+		
+		-webkit-transition-duration: .2s;
+		-moz-transition-duration: .2s;
+		-o-transition-duration: .2s;
+		-ms-transition-duration: .2s;
+		transition-duration: .2s;
+	}
+	
+	.demo_grid.small p {
+		line-height: 30px;
+	}
+	
+	.demo_grid .column:hover p, .demo_grid .columns:hover p {
+		-webkit-transition-duration: .2s;
+		-moz-transition-duration: .2s;
+		-o-transition-duration: .2s;
+		-ms-transition-duration: .2s;
+		transition-duration: .2s;
+	}
+	
+	.demo_grid .special, .demo_grid .special:hover {
+		background: #daf4df;
+	}
