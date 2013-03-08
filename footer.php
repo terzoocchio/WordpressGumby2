@@ -1,6 +1,6 @@
 </div><!-- #content_container -->
 
-<footer>
+<footer class="source-org vcard copyright">
   <div id="foot_container" class="container">
 
     <?php dynamic_sidebar("Footer"); ?>
